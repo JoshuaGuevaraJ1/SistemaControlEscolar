@@ -2,7 +2,7 @@
 
     session_start();
 
-    if(!isset($_SESSION['usuario'])){
+    if(!isset($_SESSION['usuarioj'])){
         echo '
             <script>
                 alert("Por favor, debes iniciar sesión");
@@ -25,7 +25,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css">
     <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css"> -->
     <link rel="stylesheet" href="../assets/fontawesome-free-6.1.1-web/css/all.css">
-    
+    <link rel="icon" href="../images/favicon.png" type="image/png">
 
     <!-- custom css file link  -->
     <link rel="stylesheet" href="../CSS/style.css">

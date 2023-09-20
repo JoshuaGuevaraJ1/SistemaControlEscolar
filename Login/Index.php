@@ -34,7 +34,7 @@
         
         <div class= "formulario">
             <form action="PruebaDatos.php" method = "GET">    
-                <h1>Usuario</h1>
+                <h1>No. de Control</h1>
                 <input type="text" name="usuario" class="inputBox" required minlength="8" maxlength="9" size="10"><br>
                 <h1>Contraseña</h1>
                 <input type="password" name="password" class="inputBox"><br>
